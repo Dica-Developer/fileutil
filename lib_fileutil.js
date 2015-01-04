@@ -106,7 +106,7 @@
     };
   }
 
-  window.dica = window.dica ||  {};
+  window.dica = window.dica || {};
   if (typeof cordova !== 'undefined' && null !== corodva) {
     window.dica.fileUtil = new FileUtilCordova();
   } else if (typeof require !== 'undefined' && require('nw.gui') && require('fs')) {
