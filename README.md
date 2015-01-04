@@ -9,19 +9,10 @@ The cordova implementation depends on the plugin ```org.apache.cordova.file```.
 API
 ===
 
-```window.dica.fileUtil.writeFile(filePath, fileContent, successCallback, errorCallback)```
-
-filePath ... path to file as String
-fileContent ... content of file as String
-successCallback ... callback on successfull write as function without any parameter
-errorCallback ... callback on error during write as function with the error as parameter
-
-
-```window.dica.fileUtil.readFile(filePath, successCallback, errorCallback)```
-
-filePath ... path to file as String
-successCallback ... callback on successfull write as function with the file content as parameter
-errorCallback ... callback on error during write as function with the error as parameter
+|method|parameter|
+-------|----------
+|window.dica.fileUtil.writeFile(filePath, fileContent, successCallback, errorCallback)|filePath ... path to file as String<br />fileContent ... content of file as String<br />successCallback ... callback on successfull write as function without any parameter<br />errorCallback ... callback on error during write as function with the error as parameter|
+|window.dica.fileUtil.readFile(filePath, successCallback, errorCallback)|filePath ... path to file as String<br />successCallback ... callback on successfull write as function with the file content as parameter<br />errorCallback ... callback on error during write as function with the error as parameter|
 
 Install
 =====
