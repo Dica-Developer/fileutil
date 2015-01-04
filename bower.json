@@ -1,0 +1,6 @@
+{
+  "name": "dica-developer-fileutil",
+  "version": "1.0.0",
+  "main": "lib_fileutil.js",
+  "dependencies": {}
+}
