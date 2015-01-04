@@ -28,16 +28,20 @@ The file util functions can be found under ```window.dica.fileUtil```.
 
 To write a file use the following method:
 
-```window.dica.fileUtil.writeFile('readme.txt', 'This is the new file content.', function() {
+```javascript
+window.dica.fileUtil.writeFile('readme.txt', 'This is the new file content.', function() {
   console.log('File successfuly written.');
 }, function (error) {
   console.error('Error on writing file', error);
-})```
+})
+```
 
 To read a file use the following method:
 
-```window.dica.fileUtil.readFile(filePath, function(fileContent) {
+```javascript
+window.dica.fileUtil.readFile(filePath, function(fileContent) {
   console.log('The file content is: ', fileContent);
 }, function (error) {
   console.error('Error on reading file', error);
-}))```
+}))
+```
