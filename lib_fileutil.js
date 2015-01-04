@@ -107,7 +107,7 @@
   }
 
   window.dica = window.dica || {};
-  if (typeof cordova !== 'undefined' && null !== corodva) {
+  if (typeof cordova !== 'undefined' && null !== cordova) {
     window.dica.fileUtil = new FileUtilCordova();
   } else if (typeof require !== 'undefined' && require('nw.gui') && require('fs')) {
     window.dica.fileUtil = new FileUtilNodeWebkit();
