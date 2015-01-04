@@ -1,12 +1,11 @@
 {
   "name": "dica-developer-fileutil",
-  "version": "1.0.0",
   "main": "lib_fileutil.js",
   "dependencies": {},
   "ignore": [],
   "description": "Simple cross platform (cordova, node-webkit) file read and write API.",
   "keywords": ["node-webkit", "cordova"],
-  "license": "LGPL-3.0+",
+  "license": "GPL-3.0+",
   "repository": {
     "type": "git",
     "url": "git://github.com/Dica-Developer/fileutil.git"
