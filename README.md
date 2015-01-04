@@ -26,7 +26,8 @@ errorCallback ... callback on error during write as function with the error as p
 Install
 =====
 
-```bower install https://github.com/Dica-Developer/fileutil.git```
+```bower install https://github.com/Dica-Developer/fileutil.git``` or
+```bower install dica-developer-fileutil```
 
 Usage
 =====
